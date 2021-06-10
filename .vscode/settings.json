@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "C:\\Users\\Antoine\\Documents\\miniconda3\\envs\\google_ml\\python.exe",
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": ["/K", "C:\\Users\\Antoine\\Documents\\miniconda3\\Scripts\\activate.bat", "C:\\Users\\Antoine\\Documents\\miniconda3"],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    }
+}
